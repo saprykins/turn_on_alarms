@@ -17,6 +17,4 @@ pip install google-cloud-monitoring
 ```
 the code i copy is [here](https://cloud.google.com/monitoring/alerts/using-alerting-api#monitoring_alert_enable_policies-python)
 
-Alarms [info](https://cloud.google.com/monitoring/alerts/concepts-indepth#disabled-policies)  
-
-Window, align function and period
+Alarms [basic example](https://cloud.google.com/monitoring/alerts/concepts-indepth#disabled-policies) on window, align function and period  
