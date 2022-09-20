@@ -1,5 +1,3 @@
-# not working version
-
 # pip install google-cloud-monitoring
 
 from google.cloud import monitoring_v3
@@ -37,4 +35,4 @@ def enable_alert_policies(project_name, enable, filter_=None):
             print("Enabled" if enable else "Disabled", policy.name)
 
 
-enable_alert_policies(project_name='tenacious-post-355715', enable='enable')
+enable_alert_policies(project_name='projects/tenacious-post-355715', enable=True)
